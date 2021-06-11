@@ -3,7 +3,7 @@ body {
     line-height: calc(1ex / 0.32);
     text-align: center;
     margin-top: 5em;
-    background-image: url(src/img/4xkh0cxjjs4x.jpg);
+    background-image: url(/src/4xkh0cxjjs4x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -44,7 +44,7 @@ input:active {
 
     background: rgb(69,0,133);
     border: solid #DDD 14px;
- 
+    
     box-shadow: 10px 10px 10px #112;
     margin: 20px auto;
     
@@ -55,7 +55,6 @@ input:active {
     height: 270px;
     width: 270px;
     overflow: hidden;
-    transition: transform 0.6s cubic-bezier(0, 0.55, 0.45, 1);
 }
 
 .symbol {
@@ -75,8 +74,7 @@ input:active {
     font-size: 1rem;
     max-width: 560px;
     text-align: left;
-    transition: 0.3s;
-
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 
